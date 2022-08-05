@@ -50,6 +50,8 @@ export const CyclesContextProvider = ({
       if (storedStaeAsJSON) {
         return JSON.parse(storedStaeAsJSON)
       }
+
+      return { cycles: [], activeCycleId: null }
     },
   )
 
